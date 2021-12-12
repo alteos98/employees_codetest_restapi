@@ -52,8 +52,12 @@ Arrancar el servicio de MySQL.
 
 ### Paso 4
 
-Añadir en MySQL la BBDD del ejercicio, ya sea por CMD o por phpMyAdmin. Este paso se puede omitir si queremos partir de una BBDD vacía e ir añadiendo los empleados por nuestra cuenta.
+Modificar las variables $user y $pass en el archivo config/Database.php para que coincidan con el usuario y la contraseña en el localhost de MySQL.
 
 ### Paso 5
+
+Añadir en MySQL la BBDD del ejercicio, ya sea por CMD o por phpMyAdmin. Este paso se puede omitir si queremos partir de una BBDD vacía e ir añadiendo los empleados por nuestra cuenta.
+
+### Paso 6
 
 API REST lista para usarse.
